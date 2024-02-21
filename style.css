@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #5b5858; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra */
+  }
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px; 
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .nav-links li a:hover {
+    background-color: #c62828; /* Color de fondo al pasar el mouse */
+  }
+
+  .welcome {
+    background-color: #ef4337;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .article {
+    width: 45%;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .article img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .article-content {
+    padding: 20px;
+  }
+  
+  .article-content h3 {
+    margin-top: 0;
+  }
+  
+  .article-content p {
+    margin-bottom: 0;
+  }
+  
+  .article-content a {
+    display: inline-block;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .article-content a:hover {
+    background-color: #c62828;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+  }
+
+/*Sobre mi*/
+  .title {
+    text-align: center;
+    font-size: 2em; 
+    color: #f44336; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    border-bottom: 2px solid #f44336; 
+    padding-bottom: 10px; 
+  }  
+
+
+  .main-content {
+    padding: 20px;
+  }
+  
+  .education-info {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-info h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .education-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .education-info ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .education-info ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .education-info ul li span {
+    font-weight: bold;
+    color: #f44336;
+  }
+
+
+.personal-info {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.personal-info h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.personal-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.personal-info ul li {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.personal-info ul li:last-child {
+  border-bottom: none;
+}
+
+.personal-info ul li span {
+  font-weight: bold;
+  color: #f44336;
+}
+
+
+.contact-info {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .contact-info ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .contact-info ul li span {
+    font-weight: bold;
+    color: #f44336;
+  }
+  
+  .message-box {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .message-box h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .message-box form {
+    margin-top: 20px;
+  }
+  
+  .message-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .message-box button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .message-box button:hover {
+    background-color: #c62828;
+  }
+
+
+  .hobbies-info {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hobbies-info p {
+    margin: 10px 0;
+  }
+  

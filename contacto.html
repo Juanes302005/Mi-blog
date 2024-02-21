@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Mi Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <h1>Mi Blog</h1>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="sobre_mi.html">Sobre mí</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+      <li><a href="hobbies.html">Hobbies</a></li>
+    </ul>
+  </nav>
+  
+  <div class="main-content">
+    <h2 class="title">Aquí encontrarás cómo contactarme</h2>
+    <div class="contact-info">
+      <h3>Mis Datos de Contacto:</h3>
+      <ul>
+        <li><span>Número de Contacto:</span> 3148727799</li>
+        <li><span>Correo Electrónico:</span> Juanes20052020@hotmail.com</li>
+      </ul>
+    </div>
+    <div class="message-box">
+      <h3>Déjame un mensaje o comentario:</h3>
+      <form action="guardar_mensaje.php" method="post">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo Electrónico" required>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2024 Mi Blog</p>
+  </footer>
+</body>
+</html>
